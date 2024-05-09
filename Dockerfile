@@ -1,9 +1,10 @@
+ GNU nano 7.2                                                               Dockerfile                                                                        
 # Use Python 3.6 or later as a base image
 FROM python:latest
 
 # Copy contents into image
 COPY requirements.txt
- 
+
 # Install pip dependencies from requirements
 RUN pip install --upgrade pip
 
